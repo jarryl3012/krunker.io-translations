@@ -98,7 +98,7 @@ settings.experimental.aimFreezeFix 开镜冻结修复
 settings.experimental.mouseFlickFix 视野跳动修复
 settings.experimental.shaderRendering 着色器渲染
 settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.client.unlimitedFrames 无限帧数
 settings.client.gameCap Game Capture
 settings.client.experimental Experimental Features
 settings.client.discordRPC Discord RPC
@@ -229,7 +229,7 @@ settings.crosshair.color 颜色
 settings.crosshair.shadow.color 阴影颜色
 settings.crosshair.shadow.thickness 阴影粗细
 settings.crosshair.size 尺寸
-settings.crosshair.thickness 粗细
+settings.crosshair.thickness 厚度
 settings.crosshair.gap 中心间隔大小
 settings.crosshair.dot 点
 settings.crosshair.opacity.use 使用自定义透明度
@@ -277,7 +277,7 @@ settings.controller.deadZoneL 左手柄摇杆死区
 settings.controller.deadZoneR 右手柄摇杆死区
 settings.controller.triggerThres 触发阈值
 settings.controller.vibration 震动
-settings.controller.gradSpeed 渐缓速度
+settings.controller.gradSpeed 渐缓加速/ 渐缓减速
 settings.controller.invert 反转Y轴
 settings.mobile.header 移动设备
 settings.mobile.sensitivityX X轴灵敏度
@@ -285,7 +285,7 @@ settings.mobile.sensitivityY Y轴灵敏度
 settings.mobile.aimsensX 开镜水平灵敏度
 settings.mobile.aimsensY 开镜垂直灵敏度
 settings.mobile.vibration 震动
-settings.mobile.gradSpeed 渐缓速度
+settings.mobile.gradSpeed 渐缓加速/ 渐缓减速
 settings.mobile.invert 反转Y轴
 settings.audio.header 音效
 settings.audio.sound 主音量
@@ -298,7 +298,7 @@ settings.audio.ui 用户界面音量
 settings.audio.asset 地图音量
 settings.audio.dialogue 动作音量
 settings.viewmodel.header 视角
-settings.viewmodel.fov 腰射视野
+settings.viewmodel.fov 视野范围
 settings.viewmodel.fps 帧数
 settings.viewmodel.bobbing 玩家移动时的武器晃动
 settings.viewmodel.leaning 玩家移动时的武器倾斜
@@ -415,7 +415,7 @@ windows.loadout.waist 腰部饰品
 windows.loadout.shoe Shoes 鞋子
 windows.loadout.face 表情
 windows.loadout.spray 涂鸦
-windows.loadout.color.skin 皮肤颜色
+windows.loadout.color.skin 肤色
 windows.loadout.color.chat 聊天框中玩家用户名颜色
 windows.loadout.color.hair 头发颜色
 windows.loadout.dye 服装
@@ -649,7 +649,7 @@ server.config.private 私人房间
 server.config.krRewards KR 奖励
 server.config.forceDefault 必须使用默认设置
 server.config.warmupTime 热身时间
-server.config.gamRounds Rounds
+server.config.gamRounds 第 {0} 圈
 server.config.objtvTime 得分点存在时间
 server.config.forceSpawn 自动重生时间
 server.config.scoreLimit 得分限制
@@ -661,9 +661,9 @@ server.config.hpRegen 血量回复
 server.config.disableB 解除地图边界
 server.config.throwMel 投掷近战武器
 server.config.noCosm 禁用饰品
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
+server.config.tstCmp 测试模式
+server.config.limitClasses 限制
+server.config.tmSize 团队人数
 social.login 登录/注册
 social.login.failed 登录失败
 social.login.buy 登录后才可购买
@@ -789,6 +789,6 @@ social.trades.decline 全部拒绝
 social.trades.message 在设置中开启交易请求信息
 social.trades.warning 您将不会在此交易中获得任何物品!
 social.trades.accept 您确定接受此交易请求吗?
-stats.airdrops KR-Packages
+stats.airdrops KR空投
 settings.quality.flapAnim Sniper Flap Animation
 `;
